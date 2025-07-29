@@ -54,6 +54,7 @@ class CustomList:
         
     def __delitem__(self,value):
         print("Object is gone")
+        del self.items[value]
         
         
 def custom_list_test():
